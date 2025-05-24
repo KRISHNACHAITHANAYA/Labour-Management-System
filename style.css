@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #0044cc;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Button Styles */
+.btn-custom {
+    background-color: #0044cc;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0033a1;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #0033a1;
+}
+
+/* Alerts */
+.alert {
+    margin-top: 20px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Job Listing Styles */
+.job-listing {
+    margin-top: 30px;
+}
+
+.job-listing .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.job-listing .list-group-item h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job-listing .list-group-item p {
+    font-size: 14px;
+}
+
+.job-listing .list-group-item a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.job-listing .list-group-item a:hover {
+    color: #ffcc00;
+}
+
+/* Dashboard Section */
+.dashboard {
+    margin-top: 30px;
+}
+
+.dashboard h4 {
+    margin-bottom: 20px;
+    color: #0044cc;
+}
+
+.dashboard .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.dashboard .list-group-item a {
+    color: #ffcc00;
+}
+
+/* Apply Job Button */
+.apply-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.apply-btn:hover {
+    background-color: #218838;
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #0044cc;
+    color: white;
+    padding: 15px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.modal-footer .btn {
+    background-color: #0044cc;
+    color: white;
+}
+
+.modal-footer .btn:hover {
+    background-color: #0033a1;
+}
+
+/* Card Styling for Job Postings */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #0044cc;
+    color: white;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: right;
+}
+
+.card .btn {
+    background-color: #0044cc;
+    color: white;
+    border-radius: 5px;
+}
+
+.card .btn:hover {
+    background-color: #0033a1;
+}
+
+/* Custom Footer */
+footer {
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
